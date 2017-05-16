@@ -4,8 +4,11 @@
   margin: 0px;
 }
 .demo-paragraph {
-  margin: 0px;
-  padding: 20px 28px;
+  cursor: pointer;
+  padding: 0px 8px 0px 0px;
+  font-size: 0.75rem;
+  color: white;
+  font-family: Roboto,sans-serif;
 }
 .material-icons {
   text-decoration: none;
@@ -15,9 +18,4 @@
 }
 [dir='rtl'] .material-icons {
   padding-left: 8px;
-}
-@media (max-width: 599px) {
-  .demo-paragraph {
-    padding: 16px;
-  }
 }
